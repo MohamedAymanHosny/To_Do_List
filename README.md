@@ -9,17 +9,12 @@ This is a simple To-Do List application that helps users keep track of their tas
 - View all tasks in a neat list.
 - Display timestamps for when tasks were added.
 - Delete tasks after completion.
-
+- 
 ---
 
 ## Technology Stack
 - **Frontend:** Android Jetpack Compose
 - **Backend:** Local storage/database (e.g., Room or SharedPreferences, depending on implementation)
-
----
-
-## Screenshot
-![To-Do List App Screenshot](All_Task.jpg)
 
 ---
 
