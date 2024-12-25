@@ -18,6 +18,10 @@ This is a simple To-Do List application that helps users keep track of their tas
 
 ---
 
+![Description of the Image](Screen/Add_Task.jpg)
+
+---
+
 ## How to Run the Project
 1. **Clone the Repository**:
    ```bash
