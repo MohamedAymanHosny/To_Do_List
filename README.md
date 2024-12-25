@@ -9,7 +9,6 @@ This is a simple To-Do List application that helps users keep track of their tas
 - View all tasks in a neat list.
 - Display timestamps for when tasks were added.
 - Delete tasks after completion.
-- 
 ---
 
 ## Technology Stack
@@ -24,11 +23,3 @@ This is a simple To-Do List application that helps users keep track of their tas
 ![Description of the Image](Screen/Choose_Date.jpg)
 ![Description of the Image](Screen/Choose_Time.jpg)
 ![Description of the Image](Screen/All_Task.jpg)
-
----
-
-## How to Run the Project
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/MohamedAymanHosny/ToDoListApp.git
-   cd ToDoListApp
