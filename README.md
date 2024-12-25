@@ -1,4 +1,4 @@
-# To-Do List App
+<h1 align="center">To-Do List App</h1>
 
 This is a simple To-Do List application that helps users keep track of their tasks. Users can add tasks, view them with a timestamp, and delete them when completed.
 
