@@ -17,9 +17,11 @@ This is a simple To-Do List application that helps users keep track of their tas
 
 ---
 
-![Description of the Image](Screen/Front_App.jpg)
-![Description of the Image](Screen/List.jpg)
-![Description of the Image](Screen/Add_Task.jpg)
-![Description of the Image](Screen/Choose_Date.jpg)
-![Description of the Image](Screen/Choose_Time.jpg)
-![Description of the Image](Screen/All_Task.jpg)
+<div style="display: flex; flex-wrap: wrap;">
+  <img src="Screen/Front_App.jpg" alt="Description of the Image" style="margin: 5px;">
+  <img src="Screen/List.jpg" alt="Description of the Image" style="margin: 5px;">
+  <img src="Screen/Add_Task.jpg" alt="Description of the Image" style="margin: 5px;">
+  <img src="Screen/Choose_Date.jpg" alt="Description of the Image" style="margin: 5px;">
+  <img src="Screen/Choose_Time.jpg" alt="Description of the Image" style="margin: 5px;">
+  <img src="Screen/All_Task.jpg" alt="Description of the Image" style="margin: 5px;">
+</div>
