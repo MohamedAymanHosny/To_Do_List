@@ -17,25 +17,30 @@ This is a simple To-Do List application that helps users keep track of their tas
 
 ---
 <div style="display: flex; flex-wrap: wrap;">
-  <div style="margin: 5px;">
+  <div style="margin: 5px; text-align: center;">
     <p>1</p>
     <img src="Screen/Front_App.jpg" alt="Description of the Image" style="width: 150px;">
   </div>
-  <div style="margin: 5px;">
+  <div style="margin: 5px; text-align: center;">
     <p>2</p>
     <img src="Screen/List.jpg" alt="Description of the Image" style="width: 150px;">
   </div>
-  <div style="margin: 5px;">
+  <div style="margin: 5px; text-align: center;">
     <p>3</p>
     <img src="Screen/Add_Task.jpg" alt="Description of the Image" style="width: 150px;">
   </div>
-  <div style="margin: 5px;">
+  <div style="margin: 5px; text-align: center;">
     <p>4</p>
     <img src="Screen/Choose_Date.jpg" alt="Description of the Image" style="width: 150px;">
   </div>
-  <div style="margin: 5px;">
+  <div style="margin: 5px; text-align: center;">
     <p>5</p>
     <img src="Screen/Choose_Time.jpg" alt="Description of the Image" style="width: 150px;">
   </div>
-  <div style="margin: 5px;">
+  <div style="margin: 5px; text-align: center;">
+    <p>6</p>
+    <img src="Screen/All_Task.jpg" alt="Description of the Image" style="width: 150px;">
+  </div>
+</div>
+
 
