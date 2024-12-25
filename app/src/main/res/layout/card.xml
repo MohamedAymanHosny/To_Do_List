@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:cardCornerRadius="35dp"
+            app:cardElevation="35dp">
+            <!-- CardView: Styled container with rounded corners and shadow 12-->
+            <!-- Match the width of the parent 13-->
+            <!-- Adjust height to content 14-->
+            <!-- Inner padding inside the card 15-->
+            <!-- Round the corners by 10dp 16-->
+            <!-- Add shadow for elevation 17-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <!-- Inner RelativeLayout: Holds the content inside the CardView 24-->
+                <!-- Match parent width 25-->
+                <!-- Adjust height to content 26-->
+                <!-- Inner padding for child elements 27-->
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textColor="#673AB7"
+                    android:textSize="30dp"/>
+                <!-- TextView: Displays the "Name" text 33-->
+                <!-- Unique identifier for the TextView 34-->
+                <!-- Adjust width to text size 35-->
+                <!-- Adjust height to text size 36-->
+                <!-- Default text displayed 37-->
+                <!-- Text color in ARGB format 38-->
+                <!-- Font size of the text 39-->
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:textColor="#673AB7"
+                    android:textSize="20dp"
+                    android:layout_below="@id/name"
+                    android:layout_marginTop="10dp"/>
+                <!-- TextView: Displays the "Description" text 48-->
+                <!-- Unique identifier for the TextView 49-->
+                <!-- Adjust width to text size 50-->
+                <!-- Adjust height to text size 51-->
+                <!-- Default text displayed 52-->
+                <!-- Text color in ARGB format 53-->
+                <!-- Font size of the text 54-->
+                <!-- Position below the "Name" TextView 55-->
+                <!-- Add margin above this element 56-->
+                <TextView
+                    android:id="@+id/dateTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date and Time"
+                    android:textColor="#673AB7"
+                    android:textSize="20dp"
+                    android:layout_below="@id/description"
+                    android:layout_marginTop="10dp"/>
+                <!-- TextView: Displays the "Date and Time" text 67-->
+                <!-- Unique identifier for the TextView 68-->
+                <!-- Adjust width to text size 69-->
+                <!-- Adjust height to text size 70-->
+                <!-- Default text displayed 71-->
+                <!-- Text color in ARGB format 72-->
+                <!-- Font size of the text 73-->
+                <!-- Position below the "Description" TextView 74-->
+                <!-- Add margin above this element 75-->
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="Delete"
+                    android:layout_alignParentRight="true"/>
+                <!-- Button: Provides the option to delete an item 86-->
+                <!-- Unique identifier for the Button 87-->
+                <!-- Adjust width to content size 88-->
+                <!-- Adjust height to content size 89-->
+                <!-- Align to the end of the parent layout 90-->
+                <!-- Button label 91-->
+                <!-- Align to the right side (RTL compatibility) 92-->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>
